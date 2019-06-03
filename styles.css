@@ -72,6 +72,7 @@ body{
     padding: .5rem .9rem;
     width: 90%;
     font-size: 1.5rem;
+    outline: none;
 }
 
 .searchbar input::placeholder{
