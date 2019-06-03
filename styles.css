@@ -1,3 +1,130 @@
-h1 {
-    color: orange
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+*/
+
+/**** CSS RESET AND BASIC STYLING ****/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+html {
+    font-size: 10px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    font-weight: normal;
+}
+
+/**** NABVAR ****/
+
+
+/* Nabar Wrapper */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 10px 24px -12px rgba(242, 241, 239, .7);
+}
+
+/* END */
+
+
+
+/* Menu */
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    width: 14rem;
+    justify-content: space-between;
+}
+
+.youlogo {
+    width: 10rem;
+}
+
+/* END */
+
+
+/* Search Bar */
+
+.searchbar{
+    border: 1px solid #ccc; 
+    background-color: #f7f7f7;
+    width: 66rem;
+    display: flex;
+    align-items: center;
+    border-radius: .3rem;
+    overflow: hidden;
+}
+
+.searchbar input {
+    border: none;
+    border-right: 1px solid #ccc;
+    padding: .5rem .9rem;
+    width: 90%;
+    font-size: 1.5rem;
+}
+
+.searchbar input::placeholder{
+    font-size: 1.5rem;
+}
+
+.searchbar .search-btn{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    width: 10%;
+}
+
+.searchbar .search-icon{
+   color: #888;
+   font-size: 2rem;
+}
+
+/* END */
+
+
+/* Feature Icons */
+
+.material-icons {
+    font-size: 2.4rem;
+    color: #666;
+}
+
+.feature-icons{
+    position: relative;
+    margin-right: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 22rem;
+}
+
+.feature-icons .account-icon{
+    font-size: 3.5rem;
+    color: #b1348a;
+}
+
+.bell-icon-badge{
+   text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 49px;
+    display: inline-block;
+    color: #fff;
+    width: 19px;
+    height: 19px;
+    background-color: rgb(204,22,0);
+}
+
+/* END */
