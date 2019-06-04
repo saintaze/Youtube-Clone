@@ -15,8 +15,8 @@ html {
     font-size: 10px;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
+body {
+    font-family: 'Roboto', sans-serif;
     line-height: 1.7;
     font-weight: normal;
 }
@@ -26,7 +26,7 @@ body{
 
 /* Nabar Wrapper */
 
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,8 +56,8 @@ body{
 
 /* Search Bar */
 
-.searchbar{
-    border: 1px solid #ccc; 
+.searchbar {
+    border: 1px solid #ccc;
     background-color: #f7f7f7;
     width: 66rem;
     display: flex;
@@ -75,20 +75,20 @@ body{
     outline: none;
 }
 
-.searchbar input::placeholder{
+.searchbar input::placeholder {
     font-size: 1.5rem;
 }
 
-.searchbar .search-btn{
+.searchbar .search-btn {
     display: flex;
     align-items: stretch;
     justify-content: center;
     width: 10%;
 }
 
-.searchbar .search-icon{
-   color: #888;
-   font-size: 2rem;
+.searchbar .search-icon {
+    color: #888;
+    font-size: 2rem;
 }
 
 /* END */
@@ -101,7 +101,7 @@ body{
     color: #666;
 }
 
-.feature-icons{
+.feature-icons {
     position: relative;
     margin-right: 4rem;
     display: flex;
@@ -110,13 +110,13 @@ body{
     width: 22rem;
 }
 
-.feature-icons .account-icon{
+.feature-icons .account-icon {
     font-size: 3.5rem;
     color: #b1348a;
 }
 
-.bell-icon-badge{
-   text-align: center;
+.bell-icon-badge {
+    text-align: center;
     border-radius: 50%;
     position: absolute;
     top: 0;
@@ -125,7 +125,98 @@ body{
     color: #fff;
     width: 19px;
     height: 19px;
-    background-color: rgb(204,22,0);
+    background-color: rgb(204, 22, 0);
 }
 
 /* END */
+
+
+/* Main contents */
+
+main {
+    display: flex;
+    padding: 2.5rem 10rem;
+}
+
+.player {
+    display: block;
+    width: 75%;
+    margin-right: 2.5rem
+}
+
+.video-info {
+    margin-top: 1.3rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.video-info .title {
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.sidebar {
+    background-color: #3634b1;
+    width: 25%;
+}
+
+.video-toolbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-views {
+    font-size: 1.7rem;
+    color: #555;
+    font-weight: 200;
+}
+
+.right-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 27%;
+
+}
+
+.right-menu .material-icons,
+.right-menu span {
+    font-size: 1.8rem;
+    color: #888;
+}
+
+.right-menu .share-btn .material-icons {
+    transform: scale(-1, 1)
+}
+
+.right-menu a span {
+    margin-left: .6rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.thumb-wrapper,
+.share-btn,
+.save-btn,
+.options-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumb-wrapper {
+    border-bottom: 2px solid #888;
+    padding: 1.3rem 0;
+}
+
+.thumb-up-btn,
+.thumb-down-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1.4rem;
+}
+
+.thumb-down-btn {
+    margin-left: 1.4rem;
+    margin-right: 0;
+}
