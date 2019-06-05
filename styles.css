@@ -135,12 +135,12 @@ body {
 
 main {
     display: flex;
-    padding: 2.5rem 10rem;
+    padding: 2.5rem 7.5rem;
 }
 
 .player {
     display: block;
-    width: 75%;
+    width: 67%;
     margin-right: 2.5rem
 }
 
@@ -155,13 +155,14 @@ main {
 }
 
 .sidebar {
-    background-color: #3634b1;
-    width: 25%;
+    /* background-color: #3634b1; */
+    width: 31%;
 }
 
 .video-toolbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .video-views {
@@ -174,13 +175,13 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 27%;
+    width: 40%;
 
 }
 
 .right-menu .material-icons,
 .right-menu span {
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: #888;
 }
 
@@ -220,3 +221,63 @@ main {
     margin-left: 1.4rem;
     margin-right: 0;
 }
+
+
+
+
+
+
+
+.suggested-video{
+    display: flex;
+    margin: 1rem 0;
+}
+
+.suggested-video .thumbnail {
+    flex-basis: 46%;
+    margin-right: 1rem;
+    position: relative;
+}
+
+
+.suggested-video .thumbnail span{
+    letter-spacing: .1rem;
+    font-family: inherit;
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    display: inline-block;
+    background-color: rgba(0,0,0, .8);
+    color: white;
+    padding: .05rem .5rem;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+
+
+.suggested-video .thumbnail-info {
+    flex-basis: 54%;
+}
+
+.suggested-video .thumbnail img {
+    height: 11rem;
+}
+
+.suggested-video .thumbnail-info h2 {
+    margin-bottom: .4rem;
+}
+
+.suggested-video h2 {
+    line-height: 1.2;
+}
+
+.suggested-video .channel, .suggested-video .views {
+    color: #777;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: .001rem;
+    line-height: 1.3;
+}
+
