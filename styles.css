@@ -399,6 +399,8 @@ main {
 }
 
 .add-comment{
+    display: flex;
+    align-items: baseline;
     margin-top: 1.8rem;
 }
 
@@ -450,15 +452,12 @@ margin-top: .8rem;
     display: flex;
 }
 
-.comment-avatar div{
+.comment-avatar img{
     width: 5rem;
     height: 5rem;
     background-color: red;
     border-radius: 50%;
-    background-image: url('/assets/profile.jpg');
-    background-position: center;
-    background-repeat: no-repeat;  
-    background-size: cover;
+
 }
 
 .comment-info .material-icons{
