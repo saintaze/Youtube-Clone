@@ -231,7 +231,7 @@ main {
 }
 
 .suggested-video .thumbnail {
-    flex-basis: 46%;
+
     margin-right: 1rem;
     position: relative;
 }
