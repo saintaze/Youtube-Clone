@@ -1,6 +1,8 @@
-# Youtube-Videoplayer-Clone-Template
-#### This is youtube videoplayer page clone built without any UI material frameworks.
-We tried to make this as a pixel perfect clone of youtube with HTML and CSS.   
+# Youtube-Videoplayer-Clone
 
-###### by @saintaze and @imhtapm
-It is only for educational purpose only
+#### This is a Youtube VideoPlayer Clone (Built only with native HTML and CSS).   
+The project was to build a replica of youtube. And we strove to make it look exactly like that.
+
+#### by @saintaze and @imhtapm
+It is for educational purpose only
+
