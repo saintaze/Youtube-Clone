@@ -338,7 +338,7 @@ main {
 
 .avatar div {
   background-color: red;
-  background-image: url("/assets/profile.jpg");
+  background-image: url("assets/profile.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
