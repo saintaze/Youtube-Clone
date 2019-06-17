@@ -7,8 +7,8 @@ It is a youtube videoplayer page built as a clone of the real Youtube videoplaye
 
 
 # Cloned Page URL
-
-URL: [Youtube](https://www.youtube.com/watch?v=paG6a6wlwto&t=437s)
+#### Clone URL [Live preview](https://youtube-videoplayer-template.imhta.now.sh)
+#### Original URL: [Youtube](https://www.youtube.com/watch?v=paG6a6wlwto&t=437s)
 
 # Authors
 + Saintaze [https://github.com/saintaze/](https://github.com/saintaze/)
