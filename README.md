@@ -1,14 +1,15 @@
-# Youtube Videoplayer Clone
-It is a youtube videoplayer page built as a clone of the real Youtube videoplayer.
+# Youtube Clone
+It is a Youtube clone.
+
+### Features
++ Exact Clone of Youtube
 
 ##### Built With
 + HTML5
 + CSS3
 
-
-# Cloned Page URL
-#### Clone URL [Live preview](https://youtube-videoplayer-template.imhta.now.sh)
-#### Original URL: [Youtube](https://www.youtube.com/watch?v=paG6a6wlwto&t=437s)
+# Live Version
+URL: [Live preview](https://youtube-videoplayer-template.imhta.now.sh)
 
 # Authors
 + Saintaze [@saintaze](https://github.com/saintaze/)
