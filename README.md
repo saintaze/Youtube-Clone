@@ -9,7 +9,7 @@ It is a Youtube clone.
 + CSS3
 
 # Live Version
-URL: [Live preview](https://youtube-videoplayer-template.imhta.now.sh)
+URL: [Youtube Clone](https://youtube-videoplayer-template.imhta.now.sh)
 
 # Authors
 + Saintaze [@saintaze](https://github.com/saintaze/)
